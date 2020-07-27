@@ -20,5 +20,5 @@ print(sum)
 N = int(input("숫자 입력> "))
 for i in range(1, N+1):
     if not N%i:
-        print(i)
+        print(i, end=" ")
 '''
