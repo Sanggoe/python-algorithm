@@ -15,8 +15,11 @@ for i in range(t):
     a.sort()
     print("#%d %d" %(i+1, a[k-1]))
 
+
 # 강의 중 강사님 코드
-'''
+import sys
+sys.stdin=open("input.txt", "rt")
+
 T=int(input())
 for i in range(T):
     N, s, e, k = map(int, input().split())
@@ -24,4 +27,3 @@ for i in range(T):
     a=a[s-1:e]
     a.sort()
     print(a[k-1])
-'''

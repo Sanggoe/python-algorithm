@@ -18,8 +18,8 @@ for i in range(1, N+1):
            break
 else: print(-1)
 
+
 # 강의 중 강사님의 코드
-'''
 N, K = map(int, input().split())
 cnt=0
 for i in range(1, N+1):
@@ -29,4 +29,3 @@ for i in range(1, N+1):
        print(i)
        break
 else: print(-1)
-'''
