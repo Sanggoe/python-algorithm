@@ -109,9 +109,9 @@
   * for i in range(1, 11):
         print(i)
         if i>15:
-            break;
+            break
     else:
-        print(11);
+        print(11)
     * for문이 정상적으로 모두 수행 후 종료 된 경우에 else문을 수행한다.
     * for문이 break 등에 의해 도중에 종료된 경우 else문을 수행하지 않는다.
 
