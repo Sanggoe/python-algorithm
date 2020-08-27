@@ -66,7 +66,7 @@
 
 <br/>
 
-### 반복문 (for, while, break, contineu)
+### 반복문 (for, while, break, continue)
 
 * range()
   * 순차적으로 정수 리스트를 만드는 함수
@@ -410,3 +410,14 @@
   * map이라는 내장함수에 인자로 람다식을 가져다 쓴 것!
   * a라는 list에 있는 자료가 다 람다식에 x에 대응되는 작업을 통해 list화 되는 것이다.
 
+<br/>
+
+<br/>
+
+### Set 자료구조
+
+* List와 같은 자료구조와 다르게, 중복된 요소는 제거하고 포함한다.
+* res = set()
+  * 빈 set 생성
+
+<br/>
