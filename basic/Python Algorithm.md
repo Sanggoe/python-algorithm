@@ -213,6 +213,9 @@
   * 선언과 동시에 초기화
     * a=[1,2,3,4,5]
     * b=list(range(1,11))
+    * c=[0]*n
+    * d=[0 for _ in range(n)]
+    * e=[[0 for col in range(n)] for row in range(n)]
 * list 합치기
   * c=a+b
     * list a와 list b의 내용을 그대로 합쳐 c에 담는다.
