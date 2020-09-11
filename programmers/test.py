@@ -1,5 +1,5 @@
-def solution(n):
-    s = "수박"*n
-    return s[:n]
+def solution(s):
+    return " ".join(map(lambda x: "".join([a.lower() if i % 2 else a.upper() for i, a in enumerate(x)]), s.split(" ")))
 
-print(solution(5))
+
+print(solution("try hello world"))
