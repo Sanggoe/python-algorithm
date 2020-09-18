@@ -62,7 +62,7 @@
     * if 0<x<10
 * 다중 if문
   * else if 대신 파이썬에서는 elif 라고 표현한다.
-* 조건 and A or B
+* return 조건 and A or B
   * 다른 언어에서 ? : 삼항 연산자의 기능과 같다.
   * 조건이 True이면 A를, False이면 B를 반환한다.
 
