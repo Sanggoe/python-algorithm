@@ -1,10 +1,5 @@
-def solution(numbers):
-    a = list()
+import numpy as np
+import cv2
 
-    for i in range(len(numbers)):
-        for j in range(i+1, len(numbers)):
-            a.append(numbers[i] + numbers[j])
-
-    return list(set(a))
-
-print(solution([5,0,2,7]))
+img = np.full((500,500,3), 255, dtype=np.uint8)
+cv2.imwrite('img/blank_500.jpg', img)
