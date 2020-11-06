@@ -30,7 +30,7 @@
   * a, b = input("숫자를 입력하세요 : ").split()
     * split() 함수가 () 안의 문자열을 seperator로 하여 구분 하는 것.
     * 아무것도 들어있지 않은 split() 상태일 때는 공백으로 구분한다.
-  * print(type(a)) : type : class 'str'
+  * print(type(a)) : <class 'str'>
     * input() 함수가 입력받은 반환값은 모두 string 형식이다.
     * int() 또는 str() 함수를 이용해 int to string 또는 반대 경우를 수행한다.
   * a, b = map(int, input("숫자를 입력하세요 : ").split())
@@ -280,6 +280,8 @@
   * random 모듈을 import시켜서 r로 접근하도록 한다.
 * .shuffle(a)
   * a의 값을 랜덤으로 섞는 함수
+* .randint(n, m)
+  * n~m 사이의 randome int 값을 반환 (n,m 포함)
 
 <br/>
 
