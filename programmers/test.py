@@ -1,4 +1,9 @@
-def solution(x, n):
-    return [x*i for i in range(1,n+1)]
+def solution(arr1, arr2):
 
-print(solution(["abce", "abcd", "cdx","abcd"]))
+    for i in range(len(arr1)):
+        for j in range(len(arr1[0])):
+            arr1[i][j] += arr2[i][j]
+
+    return []
+
+print(solution([[1,2],[2,3]], [[3,4],[5,6]]))
