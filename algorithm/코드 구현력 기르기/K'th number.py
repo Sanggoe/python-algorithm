@@ -16,6 +16,18 @@ for i in range(t):
     print("#%d %d" %(i+1, a[k-1]))
 
 
+
+# 내가 짠 코드 2회차
+import sys
+sys.stdin = open("input.txt", "r")
+T = int(input())
+for i in range(T):
+    N, s, e, k = map(int, input().split())
+    nums = sorted(list(map(int, input().split()))[s - 1:e])
+    print("#%d" % (i + 1), nums[k - 1])
+
+
+
 # 강의 중 강사님 코드
 import sys
 sys.stdin=open("input.txt", "rt")

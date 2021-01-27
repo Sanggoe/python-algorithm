@@ -19,6 +19,25 @@ for i in range(1, N+1):
 else: print(-1)
 
 
+
+# 내가 짠 코드 2회차
+import sys
+sys.stdin = open("input.txt", "rt")
+N, K = map(int, input().split())
+nums = list()
+
+for n in range(1, N//2+1):
+    if N%n == 0:
+        nums.append(n)
+nums.append(N)
+
+if len(nums) < K:
+    print(-1)
+else:
+    print(nums[K-1])
+
+
+
 # 강의 중 강사님의 코드
 N, K = map(int, input().split())
 cnt=0

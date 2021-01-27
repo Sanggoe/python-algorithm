@@ -35,6 +35,22 @@ for i in range(len(sum)+1):
         break
 
 
+
+# 내가 짠 코드 2회차
+import sys
+from itertools import combinations
+
+sys.stdin = open("input.txt", "r")
+N, K = map(int, input().split())
+nums = list(map(int, input().split()))
+results = list()
+for i in combinations(nums, 3):
+    results.append(sum(i))
+
+print(sorted(results, reverse=True)[K-1])
+
+
+
 # 강의 중 강사님 코드
 import sys
 sys.stdin=open("input.txt", "rt")
