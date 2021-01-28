@@ -1,12 +1,17 @@
 # 내가 짠 코드
 import sys
-from itertools import combinations
 
 sys.stdin = open("input.txt", "r")
-N, K = map(int, input().split())
+N = int(input())
 nums = list(map(int, input().split()))
-results = set()
-for i in combinations(nums, 3):
-    results.add(sum(i))
+avg = int(sum(nums) / len(nums) + 0.5)
+min = 1
 
-print(sorted(results, reverse=True)[K-1])
+for i, v in enumerate(nums):
+    if abs(avg - v) < abs(avg - nums[min]):
+        min = i
+    elif abs(avg - v) == abs(avg - nums[min]):
+        if v > nums[min]:
+            min = i
+
+print(avg, min+1)
